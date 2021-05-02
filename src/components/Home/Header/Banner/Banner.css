@@ -1,0 +1,78 @@
+/* Container holding the image and the text */
+.inner-box {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.banner-text {
+  padding-left: 15%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  font-family: "Great Vibes", cursive;
+}
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: 530;
+}
+.banner-text h2 {
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.banner-text h3 {
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Banner Image */
+.banner-image {
+  /* margin-bottom: 10%;
+  margin-right: 10%; */
+  z-index: 3;
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .banner-image {
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+  }
+  .banner-text {
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 15%;
+  }
+}
+.bgImage {
+  /* background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/03/Fluorescent-Gradient-Final.jpg"); */
+  /* background-image: url("https://i.imgur.com/OqH4GUk.jpg"); */
+  background-image: url("https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg");
+  /* background-image: url("https://image.freepik.com/free-vector/elegant-background-with-3d-polygons_1393-319.jpg"); */
+  /* background-image: url("https://www.intechnic.com/hubfs/Blog/Featured%20Images/Color%20Accessibility%20%3F%20UX%20Best%20Practices%20for%20Using%20Color%20in%20Design.jpg"); */
+  background-size: cover;
+}
+
+.banner-button {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 0px;
+  border-radius: 5px;
+  /* background-image: linear-gradient(); */
+  /* background: rgb(247,128,38); */
+  background-image: linear-gradient(
+    90deg,
+    rgba(247, 128, 38, 1) 0%,
+    rgba(245, 225, 39, 1) 35%,
+    rgba(255, 200, 0, 1) 100%
+  );
+  font-weight: 500;
+  margin-top: 10px;
+  transition: 200ms;
+  font-weight: 480;
+}
+.banner-button:hover {
+  margin-top: 5px;
+}

@@ -1,0 +1,70 @@
+.banner-head {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 55px;
+}
+.banner-box {
+  text-align: center;
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.banner-text {
+  font-size: 15px;
+  margin: 20px;
+}
+
+/* -------------banner-2-styles------------ */
+.banner2-head {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+.banner2-box {
+  text-align: center;
+
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.banner2-text {
+  font-size: 15px;
+  margin: 20px;
+}
+
+/* ---------blog-styles -----*/
+.blog-image-box {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.blog-image {
+  height: 100%;
+  width: 100%;
+}
+.blog-text {
+  text-align: left;
+}
+.detail-box {
+  padding-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.blog-button {
+  color: white;
+  background-color: black;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.blog-box {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* ---------Most-Popular-blog-styles -----*/
+.mp-image {
+  width: 100%;
+}
