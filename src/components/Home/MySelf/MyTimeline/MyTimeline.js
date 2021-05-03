@@ -13,6 +13,7 @@ import HotelIcon from "@material-ui/icons/Hotel";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import Bounce from "react-reveal/Bounce";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -42,19 +43,21 @@ const MyTimeline = () => {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <Paper
-              style={{
-                backgroundColor: "rgba(255,255,255,0.2",
-                color: "white",
-              }}
-              elevation={3}
-              className={classes.paper}
-            >
-              <Typography variant="h6" component="h1">
-                Eat
-              </Typography>
-              <Typography>Because you need strength</Typography>
-            </Paper>
+            <Bounce right cascade>
+              <Paper
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.2",
+                  color: "white",
+                }}
+                elevation={3}
+                className={classes.paper}
+              >
+                <Typography variant="h6" component="h1">
+                  Eat
+                </Typography>
+                <Typography>Because you need strength</Typography>
+              </Paper>
+            </Bounce>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -70,12 +73,22 @@ const MyTimeline = () => {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" component="h1">
-                Code
-              </Typography>
-              <Typography>Because it&apos;s awesome!</Typography>
-            </Paper>
+            <Bounce left cascade>
+              <Paper
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.2",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                elevation={3}
+                className={classes.paper}
+              >
+                <Typography variant="h6" component="h1">
+                  Code
+                </Typography>
+                <Typography>Because it&apos;s awesome!</Typography>
+              </Paper>
+            </Bounce>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -86,12 +99,21 @@ const MyTimeline = () => {
             <TimelineConnector className={classes.secondaryTail} />
           </TimelineSeparator>
           <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" component="h1">
-                Sleep
-              </Typography>
-              <Typography>Because you need rest</Typography>
-            </Paper>
+            <Bounce right cascade>
+              <Paper
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.2",
+                  color: "white",
+                }}
+                elevation={3}
+                className={classes.paper}
+              >
+                <Typography variant="h6" component="h1">
+                  Sleep
+                </Typography>
+                <Typography>Because you need rest</Typography>
+              </Paper>
+            </Bounce>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -101,12 +123,22 @@ const MyTimeline = () => {
             </TimelineDot>
           </TimelineSeparator>
           <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" component="h1">
-                Repeat
-              </Typography>
-              <Typography>Because this is the life you love!</Typography>
-            </Paper>
+            <Bounce left cascade>
+              <Paper
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.2",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                elevation={3}
+                className={classes.paper}
+              >
+                <Typography variant="h6" component="h1">
+                  Repeat
+                </Typography>
+                <Typography>Because this is the life you love!</Typography>
+              </Paper>
+            </Bounce>
           </TimelineContent>
         </TimelineItem>
       </Timeline>

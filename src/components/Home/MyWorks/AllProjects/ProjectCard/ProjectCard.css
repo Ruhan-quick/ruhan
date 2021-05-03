@@ -1,0 +1,17 @@
+.project-card {
+  background-color: rgb(228, 224, 217);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 20px;
+  position: relative;
+  transition: 700ms;
+}
+.project-card:hover {
+  background-color: turquoise;
+  padding: 15px;
+}
+
+.project-card-image {
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}

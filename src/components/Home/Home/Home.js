@@ -14,7 +14,7 @@ const Home = () => {
       <MySelf></MySelf>
       <EarnedSkills></EarnedSkills>
 
-      <HomeMyWorks></HomeMyWorks>
+      {/* <HomeMyWorks></HomeMyWorks> */}
       <Footer></Footer>
     </>
   );

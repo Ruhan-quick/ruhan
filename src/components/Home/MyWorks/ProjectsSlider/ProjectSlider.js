@@ -23,15 +23,18 @@ const ProjectSlider = () => {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"3"}
+        initialSlide={"4"}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
           depth: 100,
           modifier: 1,
-          slideShadows: true,
+          slideShadows: false,
+          initialSlide: 3,
         }}
-        pagination={false}
-        className="mySwiper"
+        pagination={true}
+        className="mySwiper edit-swiper"
+        // style={{ height: "60vh" }}
       >
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-1.jpg" />

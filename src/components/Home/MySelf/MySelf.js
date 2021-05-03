@@ -28,7 +28,7 @@ const MySelf = () => {
               I am a Web Developer
             </h3>
             <p style={{ fontSize: "20px", marginBottom: "60px" }}>
-              <Bounce bottom cascade>
+              <Bounce left cascade>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
                 eaque temporibus illum excepturi molestiae assumenda repellendus
                 blanditiis facere rem vitae doloremque nemo commodi rerum
