@@ -1,0 +1,21 @@
+.p-container {
+  height: 25px;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.p-container .progress-bar {
+  position: absolute;
+  height: 100%;
+  background-color: rgb(71, 172, 255);
+  animation: progress-animation 3s forwards;
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
