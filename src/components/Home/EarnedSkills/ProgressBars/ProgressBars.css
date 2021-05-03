@@ -7,8 +7,9 @@
 .p-container .progress-bar {
   position: absolute;
   height: 100%;
-  background-color: rgb(71, 172, 255);
+  background-color: rgb(37, 255, 8);
   animation: progress-animation 3s forwards;
+  transform-origin: top center;
 }
 
 @keyframes progress-animation {

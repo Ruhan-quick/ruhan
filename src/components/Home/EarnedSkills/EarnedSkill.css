@@ -1,0 +1,8 @@
+.earned-skills {
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 189, 92, 1) 0%,
+    rgba(247, 72, 220, 1) 29%,
+    rgba(55, 187, 233, 1) 100%
+  );
+}
