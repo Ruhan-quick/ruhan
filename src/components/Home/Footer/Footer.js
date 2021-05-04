@@ -12,9 +12,7 @@ const Footer = () => {
         }}
         className="row"
       >
-        <div className="col-lg-6 col-md-6 col-sm-12">
-          <ClientSideEmail></ClientSideEmail>
-        </div>
+        <div className="col-lg-6 col-md-6 col-sm-12">contact</div>
 
         <div className="col-lg-6 col-md-6 col-sm-12">
           <h1>Your one message can help me a lot.</h1>

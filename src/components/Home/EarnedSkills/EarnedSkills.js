@@ -9,19 +9,17 @@ const EarnedSkills = () => {
         Earned Skills
       </h1>
       <div className="row">
-        <div className="col-lg-6 col-sm-12">
-          <h1 style={{ textAlign: "center" }}>Left side</h1>
+        <div style={{ textAlign: "center" }} className="col-lg-6 col-sm-12">
           <Bouncer left>
             <ProgressBars></ProgressBars>
           </Bouncer>
         </div>
-        <div
-          style={{ marginBottom: "25px", padding: "60px" }}
-          className="col-lg-6 col-sm-12"
-        >
+        <div style={{ textAlign: "center" }} className="col-lg-6 col-sm-12">
           <img
-            src="https://i.ibb.co/4KSvNmz/do-any-node-js-or-mern-stack-job.png"
+            className="img-fluid"
+            src="https://nandankumar.in/wp-content/uploads/2020/09/website-development-company-in-agra.gif"
             alt=""
+            style={{ maxWidth: "100%" }}
           />
         </div>
       </div>

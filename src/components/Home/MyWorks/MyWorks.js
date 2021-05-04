@@ -3,7 +3,7 @@ import NavBar from "../Header/NavBar/NavBar";
 import AllProjects from "./AllProjects/AllProjects";
 import ProjectSlider from "./ProjectsSlider/ProjectSlider";
 import ProjectSliderSmall from "./ProjectsSlider/ProjectsSliderSmall/ProjectSliderSmall";
-
+import "./MyWorks.css";
 import useWindowDimensions from "./useWindowsDimention";
 
 const MyWorks = () => {
@@ -15,7 +15,17 @@ const MyWorks = () => {
     smallScreen = true;
   }
   return (
-    <div>
+    <div className="projects-bg">
+      <h1
+        style={{
+          textAlign: "center",
+          color: "white",
+          paddingTop: "15px",
+          margin: 0,
+        }}
+      >
+        MY WORKS
+      </h1>
       {!smallScreen && <ProjectSlider></ProjectSlider>}
       {smallScreen && <ProjectSliderSmall></ProjectSliderSmall>}
       <NavBar></NavBar>

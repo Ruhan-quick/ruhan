@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./MySelf.css";
 import MyTimeline from "./MyTimeline/MyTimeline";
 import { motion } from "framer-motion";
 import Bounce from "react-reveal/Bounce";
-
+import Typewriter from "typewriter-effect";
 const MySelf = () => {
+  const [state] = useState({
+    title: "Hi",
+    titleTwo: "I'm",
+    titleThree: "Code&Coding",
+  });
   return (
     <div className="my-self" style={{ textAlign: "center", color: "white" }}>
       <div className="row">
@@ -24,11 +29,27 @@ const MySelf = () => {
             >
               My Self
             </motion.h1>
-            <h3 id="myself-head-2" style={{ marginBottom: "20px" }}>
-              I am a Web Developer
-            </h3>
+            <div className="type-intro">
+              <h3 id="myself-head-2" style={{ marginBottom: "20px" }}>
+                <div className="text">
+                  <Typewriter
+                    options={{
+                      autoStart: true,
+                      loop: true,
+                      delay: 100,
+                      strings: [
+                        "I'm a Youtuber",
+                        "I'am a Web Developer",
+                        "I'm a Tech Enthusiast",
+                      ],
+                    }}
+                  />
+                </div>
+              </h3>
+            </div>
+
             <p style={{ fontSize: "20px", marginBottom: "60px" }}>
-              <Bounce left cascade>
+              <Bounce left opposite cascade>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
                 eaque temporibus illum excepturi molestiae assumenda repellendus
                 blanditiis facere rem vitae doloremque nemo commodi rerum

@@ -83,7 +83,7 @@ const ProjectSlider = () => {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"3"}
-        initialSlide={"3"}
+        initialSlide={"2"}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,

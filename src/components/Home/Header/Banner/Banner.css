@@ -51,6 +51,7 @@
   /* background-image: url("https://image.freepik.com/free-vector/elegant-background-with-3d-polygons_1393-319.jpg"); */
   /* background-image: url("https://www.intechnic.com/hubfs/Blog/Featured%20Images/Color%20Accessibility%20%3F%20UX%20Best%20Practices%20for%20Using%20Color%20in%20Design.jpg"); */
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-button {

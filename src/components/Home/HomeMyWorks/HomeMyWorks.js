@@ -12,9 +12,11 @@ const HomeMyWorks = () => {
     smallScreen = true;
   }
   return (
-    <div className="home-my-works">
+    <div className="home-my-works" style={{ textAlign: "center" }}>
+      <h1 style={{ textAlign: "center" }}>My Works</h1>
       {!smallScreen && <ProjectSlider></ProjectSlider>}
       {smallScreen && <ProjectSliderSmall></ProjectSliderSmall>}
+      <button>Show Me All</button>
     </div>
   );
 };

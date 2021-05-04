@@ -22,7 +22,13 @@ const Banner = () => {
               <Bounce left>You can call by the short name Ruhan</Bounce>
             </h3>
             <Bounce bottom>
-              <button className="banner-button">Wanna Know More</button>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1YkJ4WiLJ8SgoigUwHKEoA2qxAxTjJHmA/view?usp=sharing"
+              >
+                {" "}
+                <button className="banner-button">My Resume Here</button>
+              </a>
             </Bounce>
           </div>
         </div>

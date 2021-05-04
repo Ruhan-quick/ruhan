@@ -8,7 +8,7 @@ const ClientSideEmail = () => {
     emailjs
       .sendForm(
         "gmail",
-        "template_qn9jmqo",
+        "template_nsshs0g",
         e.target,
         "user_C5lBmBeGsYCTZKESjgVjA"
       )
@@ -24,21 +24,60 @@ const ClientSideEmail = () => {
   };
   return (
     <div>
-      <h1>Client Side Email</h1>
-      <form className="contact-form" onSubmit={sendEmail}>
-        <label>Name</label> <br />
-        <input type="text" name="name" />
-        <br />
-        <label>Email</label>
-        <br />
-        <input type="email" name="email" />
-        <br />
-        <label>Message</label>
-        <br />
-        <textarea name="message" />
-        <br />
-        <input type="submit" value="Send" />
-      </form>
+      <div className="container">
+        <form onSubmit={sendEmail}>
+          <div className="row pt-5 mx-auto">
+            <div className="col-10 form-group mx-auto">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Name"
+                name="name"
+              />
+            </div>
+            <div className="col-10 text-info pt-2 form-group mx-auto">
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Enter email"
+                name="email"
+              />
+            </div>
+            <div className="col-10 form-group pt-2 mx-auto">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Subject"
+                name="subject"
+              />
+            </div>
+            <div className="col-10 form-group pt-2 mx-auto">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Subject"
+                name="subject"
+              />
+            </div>
+            <div className="col-10 form-group pt-2 mx-auto">
+              <textarea
+                name="message"
+                id=""
+                cols="30"
+                rows="10"
+                className="form-control"
+              ></textarea>
+            </div>
+            <div className="col-10 form-group pt-2 mx-auto">
+              <input
+                type="submit"
+                value="Send Message"
+                className="btn btn-info"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };

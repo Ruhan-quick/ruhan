@@ -12,9 +12,9 @@ const Home = () => {
     <>
       <Header></Header>
       <MySelf></MySelf>
-      <EarnedSkills></EarnedSkills>
 
-      {/* <HomeMyWorks></HomeMyWorks> */}
+      <HomeMyWorks></HomeMyWorks>
+      <EarnedSkills></EarnedSkills>
       <Footer></Footer>
     </>
   );

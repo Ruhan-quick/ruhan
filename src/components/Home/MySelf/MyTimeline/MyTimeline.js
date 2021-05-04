@@ -55,7 +55,7 @@ const MyTimeline = () => {
                 <Typography variant="h6" component="h1">
                   Eat
                 </Typography>
-                <Typography>Because you need strength</Typography>
+                <Typography>Because I need strength</Typography>
               </Paper>
             </Bounce>
           </TimelineContent>
@@ -111,7 +111,7 @@ const MyTimeline = () => {
                 <Typography variant="h6" component="h1">
                   Sleep
                 </Typography>
-                <Typography>Because you need rest</Typography>
+                <Typography>Because I need rest</Typography>
               </Paper>
             </Bounce>
           </TimelineContent>
@@ -136,7 +136,7 @@ const MyTimeline = () => {
                 <Typography variant="h6" component="h1">
                   Repeat
                 </Typography>
-                <Typography>Because this is the life you love!</Typography>
+                <Typography>Because this is the life I love!</Typography>
               </Paper>
             </Bounce>
           </TimelineContent>

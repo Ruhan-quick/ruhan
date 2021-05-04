@@ -6,9 +6,9 @@ const AllProjects = () => {
     {
       pName: "Explore Teams",
       pFunctions: {
-        f1: "Lorem ipsum dolor sit.",
-        f2: "Lorem ipsum dolor sit amet.",
-        f3: "Lorem ipsum dolor sit amet consectetur.",
+        f1: "Multi teams portfolio",
+        f2: "React router, Material-UI",
+        f3: "Calls api and dynamically shoes data.",
       },
 
       pImage:
@@ -61,8 +61,19 @@ const AllProjects = () => {
     },
   ];
   return (
-    <div style={{ margin: "40px" }}>
-      <h1 style={{ textAlign: "center", margin: "20px" }}>MERN PROJECTS</h1>
+    <div style={{ margin: "40px", textAlign: "center" }}>
+      <h1
+        style={{
+          margin: "20px",
+          color: "white",
+          //   textShadow: "3px 5px 2px #474747",
+        }}
+      >
+        MERN PROJECTS
+      </h1>
+      <h4 style={{ margin: "20px", color: "white" }}>
+        These are some of my projects done with React
+      </h4>
       <Bounce random cascade>
         <div className="row">
           {projects.map((ps) => (

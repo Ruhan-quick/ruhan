@@ -20,7 +20,7 @@ const ProjectCard = ({ pName, pImage, pFunctions, pLive }) => {
       <div style={{ marginTop: "25px" }} className="row">
         <div style={{ textAlign: "left" }} className="col-4">
           <a href={pLive} target="_blank">
-            <button className="btn btn-info">Live Site</button>
+            <button className="btn btn-info">Live</button>
           </a>
         </div>
         <div style={{ textAlign: "center" }} className="col-4">
