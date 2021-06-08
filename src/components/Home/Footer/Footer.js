@@ -1,21 +1,37 @@
 import React from "react";
 import ClientSideEmail from "../ClientSideEmail/ClientSideEmail";
 import "./Footer.css";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <div className="footer">
-      <div
-        style={{
-          textAlign: "center",
-          textDecoration: "none",
-          listStyle: "none",
-        }}
-        className="row"
-      >
-        <div className="col-lg-6 col-md-6 col-sm-12">contact</div>
-
-        <div className="col-lg-6 col-md-6 col-sm-12">
-          <h1>Your one message can help me a lot.</h1>
+      <div className="row">
+        <div style={{ textAlign: "center" }} className="col mx-auto">
+          <h1 style={{ color: "white", paddingTop: "30px" }}>
+            <a href="https://github.com/Ruhan-quick" target="_blank">
+              <FaGithub />
+            </a>
+            ....
+            <a href="https://www.linkedin.com/in/ruhan-kabir/" target="_blank">
+              <FaLinkedin />
+            </a>
+            ....
+            <a href="https://www.facebook.com/ruhanmdkr" target="_blank">
+              <FaFacebook />
+            </a>
+          </h1>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 mx-auto">
+          <h5 style={{ textAlign: "center", color: "white", padding: "20px" }}>
+            {" "}
+            Designed and developed by Ruhan Kabir
+          </h5>
         </div>
       </div>
     </div>

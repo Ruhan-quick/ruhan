@@ -1,10 +1,14 @@
 .my-self {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     90deg,
     rgba(38, 193, 247, 1) 0%,
     rgba(159, 84, 246, 1) 35%,
     rgba(0, 255, 226, 1) 100%
-  ) !important;
+  ) !important; */
+  background-color: rgb(4, 4, 4);
+  /* background-image: url("https://image.freepik.com/free-vector/winter-background-with-pastel-color-brushes-leaves_220290-42.jpg"); */
+  background-size: cover;
+  z-index: 3;
 }
 .glass-test {
   background-color: rgb(255, 255, 255, 0.2);
@@ -12,15 +16,18 @@
   margin-bottom: 20px;
 }
 .myself-head {
-  font-family: "Great Vibes", cursive;
+}
+.my-text {
+  padding: "40px";
 }
 #myself-head-2 {
-  background-image: -webkit-linear-gradient(
+  /* background-image: -webkit-linear-gradient(
     45deg,
     rgba(247, 128, 38, 1) 0%,
     rgba(245, 225, 39, 1) 35%,
     rgba(255, 200, 0, 1) 100%
-  ) !important;
+  ) !important; */
+  background-color: #ffc91d;
   margin-left: 30%;
   margin-right: 30%;
   /* -webkit-text-fill-color: transparent; */
@@ -29,4 +36,11 @@
   border-radius: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  #myself-head-2 {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }

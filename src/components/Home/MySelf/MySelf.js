@@ -13,7 +13,7 @@ const MySelf = () => {
   return (
     <div className="my-self" style={{ textAlign: "center", color: "white" }}>
       <div className="row">
-        <div className="col-9 mx-auto glass-test">
+        <div className="col-10 mx-auto glass-test">
           <div className="glass-body">
             <motion.h1
               style={{ padding: "20px" }}
@@ -27,7 +27,7 @@ const MySelf = () => {
               }}
               className="myself-head"
             >
-              My Self
+              MY SELF
             </motion.h1>
             <div className="type-intro">
               <h3 id="myself-head-2" style={{ marginBottom: "20px" }}>
@@ -39,7 +39,8 @@ const MySelf = () => {
                       delay: 100,
                       strings: [
                         "I'm a Youtuber",
-                        "I'am a Web Developer",
+                        "I'm a Web Developer",
+                        "I'm an Entrepreneur",
                         "I'm a Tech Enthusiast",
                       ],
                     }}
@@ -48,24 +49,28 @@ const MySelf = () => {
               </h3>
             </div>
 
-            <p style={{ fontSize: "20px", marginBottom: "60px" }}>
+            <p
+              className="my-text"
+              style={{ fontSize: "20px", marginBottom: "60px" }}
+            >
               <Bounce left opposite cascade>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-                eaque temporibus illum excepturi molestiae assumenda repellendus
-                blanditiis facere rem vitae doloremque nemo commodi rerum
-                reprehenderit nesciunt sunt suscipit dignissimos voluptatibus
-                voluptatem? Repellat veritatis totam quidem expedita fuga nobis
-                obcaecati repudiandae consequuntur dolore dignissimos.
-                Blanditiis, a cupiditate nam modi iure illo in ut cumque alias
-                tenetur delectus voluptates facilis harum optio natus sapiente
-                sequi inventore, quaerat vero labore, facere id. Ullam fuga
+                My name is S M Ruhan Kabir. I am a student and I’m studying
+                Computer Science & Engineering in a University since 2019.
+                Recently I got passionate about web development. I worked hard
+                during the last 5 months with the mission to get 1-year
+                equivalent experience within 6 months so that I can get a job in
+                this pandemic. I have done more than 13 different project on
+                web-development. Moreover, I am a tech enthusiastic person. I
+                really like learning new creative skills. I love photography,
+                videography, reading, writing, drawing, traveling, and many
+                more.
               </Bounce>
             </p>
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="col-10 mx-auto">
+        <div className="col-11 mx-auto">
           <MyTimeline></MyTimeline>
         </div>
       </div>

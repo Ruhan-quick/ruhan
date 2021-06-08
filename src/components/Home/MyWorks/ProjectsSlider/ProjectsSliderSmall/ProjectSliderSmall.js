@@ -58,16 +58,31 @@ const projects = [
     pTools: "",
   },
   {
-    pName: "Fast Medicine",
+    pName: "Hi-Coder",
     pFunctions: {
-      f1: "Lorem ipsum dolor sit.",
-      f2: "Lorem ipsum dolor sit amet.",
-      f3: "Lorem ipsum dolor sit amet consectetur.",
+      f1: "Just frontend design",
+      f2: "React based",
+      f3: "Functional component based decoration",
     },
-    pImage: "https://i.ibb.co/xsdbPDN/Fast-Medicine.png",
+    pImage:
+      "https://i.ibb.co/Thr6bKD/screenshot-vibrant-dubinsky-37ab5f-netlify-app-2021-06-04-11-24-43.png",
     pDetails: "",
-    pLive: "",
-    pGit: "",
+    pLive: "https://vibrant-dubinsky-37ab5f.netlify.app/",
+    pGit: "https://github.com/Ruhan-quick/hi-coder-clone-client",
+    pTools: "",
+  },
+  {
+    pName: "Trek-Tracker",
+    pFunctions: {
+      f1: "Routing Routs of journey",
+      f2: "React based",
+      f3: "Functional component based decoration",
+    },
+    pImage:
+      "https://i.ibb.co/xsvb9fr/screenshot-localhost-3000-2021-06-04-11-40-39.png",
+    pDetails: "",
+    pLive: "https://react-auth-ruhan-quick.web.app/",
+    pGit: "https://github.com/Ruhan-quick/trek-tracker",
     pTools: "",
   },
 ];

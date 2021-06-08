@@ -1,14 +1,23 @@
 .project-card {
-  background-color: rgb(228, 224, 217);
+  background-color: rgb(80, 80, 80);
   padding: 20px;
   margin: 15px;
   border-radius: 20px;
   position: relative;
+  color: white;
   transition: 700ms;
 }
+
 .project-card:hover {
-  background-color: turquoise;
+  background-color: rgb(19, 18, 18);
   padding: 15px;
+  border: 2px solid white;
+}
+.project-card h5 {
+  color: rgb(202, 188, 188);
+}
+.project-card h5:hover {
+  color: rgb(255, 255, 255);
 }
 
 .project-card-image {

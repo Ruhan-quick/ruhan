@@ -2,7 +2,7 @@ import React from "react";
 import "./ProjectCard.css";
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({ pName, pImage, pFunctions, pLive }) => {
+const ProjectCard = ({ pName, pImage, pFunctions, pLive, pGit }) => {
   return (
     <div className="project-card">
       <img
@@ -20,14 +20,16 @@ const ProjectCard = ({ pName, pImage, pFunctions, pLive }) => {
       <div style={{ marginTop: "25px" }} className="row">
         <div style={{ textAlign: "left" }} className="col-4">
           <a href={pLive} target="_blank">
-            <button className="btn btn-info">Live</button>
+            <button className="btn btn-secondary">Live</button>
           </a>
         </div>
         <div style={{ textAlign: "center" }} className="col-4">
-          <button className="btn btn-info">Github</button>
+          <a href={pGit} target="_blank">
+            <button className="btn btn-secondary">Github</button>
+          </a>
         </div>
         <div style={{ textAlign: "right" }} className="col-4">
-          <button className="btn btn-info">Details</button>
+          <button className="btn btn-secondary">Details</button>
         </div>
       </div>
     </div>

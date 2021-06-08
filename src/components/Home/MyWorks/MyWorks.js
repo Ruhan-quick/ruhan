@@ -5,13 +5,14 @@ import ProjectSlider from "./ProjectsSlider/ProjectSlider";
 import ProjectSliderSmall from "./ProjectsSlider/ProjectsSliderSmall/ProjectSliderSmall";
 import "./MyWorks.css";
 import useWindowDimensions from "./useWindowsDimention";
+import Footer from "../Footer/Footer";
 
 const MyWorks = () => {
   const { height, width } = useWindowDimensions();
   console.log(height, " ", width);
   //   const [smallScreen, setSmallScreen] = useState(false);
   let smallScreen = false;
-  if (width < 600) {
+  if (width < 700) {
     smallScreen = true;
   }
   return (
@@ -29,7 +30,9 @@ const MyWorks = () => {
       {!smallScreen && <ProjectSlider></ProjectSlider>}
       {smallScreen && <ProjectSliderSmall></ProjectSliderSmall>}
       <NavBar></NavBar>
+
       <AllProjects></AllProjects>
+      <Footer></Footer>
     </div>
   );
 };

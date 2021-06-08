@@ -21,7 +21,7 @@ const NavBar = () => {
     <Navbar
       style={{ top: 0, position: "sticky", zIndex: 3 }}
       className="nav-bar-here"
-      bg="info"
+      bg="dark"
       expand="lg"
     >
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

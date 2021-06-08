@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Home/Footer/Footer";
 import NavBar from "../Home/Header/NavBar/NavBar";
 import "./Blogs.css";
 const Blogs = () => {
@@ -11,7 +12,7 @@ const Blogs = () => {
       >
         <div class="row banner2-box">
           <div class="col-lg-8 col-md-11 col-sm-12 col-xl-7 mx-auto">
-            <h1 class="banner2-head">Most Popular Blogs</h1>
+            <h1 class="banner2-head">It's not ready yet.</h1>
             <h3 class="banner2-text text-secondary">
               Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem,
               ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quia!
@@ -146,6 +147,7 @@ const Blogs = () => {
           </div>
         </div>
       </section>
+      <Footer></Footer>
     </div>
   );
 };
