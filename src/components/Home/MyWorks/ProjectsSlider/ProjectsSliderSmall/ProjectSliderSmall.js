@@ -17,9 +17,9 @@ const projects = [
   {
     pName: "Explore Teams",
     pFunctions: {
-      f1: "Lorem ipsum dolor sit.",
-      f2: "Lorem ipsum dolor sit amet.",
-      f3: "Lorem ipsum dolor sit amet consectetur.",
+      f1: "Multi teams portfolio",
+      f2: "React router, Material-UI",
+      f3: "Calls api and dynamically shoes data.",
     },
 
     pImage:
@@ -27,15 +27,15 @@ const projects = [
     pDetails: "",
     pLive:
       "https://604a41c550d9dc1c27ff9467--upbeat-hawking-366714.netlify.app/",
-    pGit: "",
+    pGit: "https://github.com/Ruhan-quick/Explore-Teams",
     pTools: "",
   },
   {
     pName: "Dev-Support",
     pFunctions: {
-      f1: "Lorem ipsum dolor sit.",
-      f2: "Lorem ipsum dolor sit amet.",
-      f3: "Lorem ipsum dolor sit amet consectetur.",
+      f1: "Instan't support request.",
+      f2: "MongoDB, Express, React, Node",
+      f3: "Secured Admin panel to manage services",
     },
     pImage: "https://i.ibb.co/5106rzk/dev-support-2.png",
     pDetails: "",
@@ -46,15 +46,15 @@ const projects = [
   {
     pName: "Fast Medicine",
     pFunctions: {
-      f1: "Lorem ipsum dolor sit.",
-      f2: "Lorem ipsum dolor sit amet.",
-      f3: "Lorem ipsum dolor sit amet consectetur.",
+      f1: "Safe Medicine order",
+      f2: "Firebase, MongoDB, React",
+      f3: "Admin panel to add/delete medicines.",
     },
 
     pImage: "https://i.ibb.co/xsdbPDN/Fast-Medicine.png",
     pDetails: "",
     pLive: "https://fastmedicine-2f70a.web.app/",
-    pGit: "",
+    pGit: "https://github.com/Ruhan-quick/fast-medicine-client",
     pTools: "",
   },
   {
