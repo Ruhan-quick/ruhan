@@ -7,8 +7,8 @@ const ClientSideEmail = () => {
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_nsshs0g",
+        "service_bc9nrjq",
+        "template_qn9jmqo",
         e.target,
         "user_C5lBmBeGsYCTZKESjgVjA"
       )

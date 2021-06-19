@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="contact">
       <NavBar></NavBar>
       <h1 style={{ textAlign: "center", color: "white", marginTop: "20px" }}>
-        This is contact page.
+        I really love to hear from you.
       </h1>
       <div style={{ textAlign: "center" }} className="col mx-auto">
         <h1 style={{ color: "white", paddingTop: "30px" }}>
@@ -32,8 +32,8 @@ const Contact = () => {
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12">
           <img
-            style={{ paddingTop: "40px" }}
-            src="https://i.ibb.co/jHmzPVT/cle.png"
+            style={{ paddingTop: "80px", width: "80%" }}
+            src="https://img.freepik.com/free-photo/chalkboard-with-blue-envelopes-drawn-hand_1205-996.jpg?size=338&ext=jpg"
             alt=""
           />
         </div>
