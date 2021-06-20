@@ -15,11 +15,11 @@ const Footer = () => {
             <a href="https://github.com/Ruhan-quick" target="_blank">
               <FaGithub />
             </a>
-            ....
+            &nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/ruhan-kabir/" target="_blank">
               <FaLinkedin />
             </a>
-            ....
+            &nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://www.facebook.com/ruhanmdkr" target="_blank">
               <FaFacebook />
             </a>
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="col-6 mx-auto">
           <h5 style={{ textAlign: "center", color: "white", padding: "20px" }}>
             {" "}
-            Designed and developed by Ruhan Kabir
+            Designed and developed by S M Ruhan Kabir
           </h5>
         </div>
       </div>

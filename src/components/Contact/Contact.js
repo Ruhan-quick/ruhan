@@ -16,11 +16,11 @@ const Contact = () => {
           <a href="https://github.com/Ruhan-quick" target="_blank">
             <FaGithub />
           </a>
-          ........
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="https://www.linkedin.com/in/ruhan-kabir/" target="_blank">
             <FaLinkedin />
           </a>
-          ........
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="https://www.facebook.com/ruhanmdkr" target="_blank">
             <FaFacebook />
           </a>
@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12">
           <img
-            style={{ paddingTop: "80px", width: "80%" }}
+            style={{ paddingTop: "50px", width: "75%" }}
             src="https://img.freepik.com/free-photo/chalkboard-with-blue-envelopes-drawn-hand_1205-996.jpg?size=338&ext=jpg"
             alt=""
           />

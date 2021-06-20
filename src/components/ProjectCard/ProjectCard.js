@@ -18,17 +18,23 @@ const ProjectCard = ({ pName, pImage, pFunctions, pLive, pGit }) => {
         <h5 style={{ textAlign: "left" }}>{pFunctions.f3}</h5>
       </div>
       <div style={{ marginTop: "25px" }} className="row">
-        <div style={{ textAlign: "left" }} className="col-4">
+        <div style={{ textAlign: "left", cursor: "pointer" }} className="col-4">
           <a href={pLive} target="_blank">
             <button className="btn btn-secondary">Live</button>
           </a>
         </div>
-        <div style={{ textAlign: "center" }} className="col-4">
+        <div
+          style={{ textAlign: "center", cursor: "pointer" }}
+          className="col-4"
+        >
           <a href={pGit} target="_blank">
             <button className="btn btn-secondary">Github</button>
           </a>
         </div>
-        <div style={{ textAlign: "right" }} className="col-4">
+        <div
+          style={{ textAlign: "right", cursor: "pointer" }}
+          className="col-4"
+        >
           <button className="btn btn-secondary">Details</button>
         </div>
       </div>
