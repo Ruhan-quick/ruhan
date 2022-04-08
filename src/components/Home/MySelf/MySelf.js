@@ -54,13 +54,10 @@ const MySelf = () => {
               style={{ fontSize: "20px", marginBottom: "60px" }}
             >
               <Bounce left opposite cascade>
-                My name is S M Ruhan Kabir. I am a student and I’m studying
-                Computer Science & Engineering in a University since 2019.
-                Recently I got passionate about web development. I worked hard
-                during the last 5 months with the mission to get 1-year
-                equivalent experience within 6 months so that I can get a job in
-                this pandemic. I have done more than 13 different project on
-                web-development. Moreover, I am a tech enthusiastic person. I
+              My name is S M Ruhan Kabir. I am a student and I’m studying
+                Computer Science & Engineering in Rajshahi University of Engineering & Technology since 2019.
+                I am a MERN stack Developer. I have done more than 15 different projects on
+                web development.I am currently working as a backend developer in a tech company since June 2021. Moreover, I am a tech enthusiastic person. I
                 really like learning new creative skills. I love photography,
                 videography, reading, writing, drawing, traveling, and many
                 more.

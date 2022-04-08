@@ -15,9 +15,11 @@ const Banner = () => {
   if (width < 700) {
     smallScreen = true;
   }
+
   return (
-    <div className="bannerSize">
-      <div className="row bgImage">
+    <>
+    <div  className="bannerSize">
+      <div  id="styleBanner" className="row bgImage">
         <div className="col-lg-7 col-md-6 col-sm-12">
           {!smallScreen && (
             <div className="banner-text">
@@ -85,7 +87,7 @@ const Banner = () => {
           )}
         </div>
 
-        <div className="col-lg-5 col-md-6 col-sm-12">
+        <div className="custom-pd col-lg-5 col-md-6 col-sm-12">
           <div className="outer-box">
             <div className="inner-box">
               <Bounce top>
@@ -104,6 +106,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
