@@ -94,6 +94,9 @@
 }
 
 #styleBanner{
-  margin-right: 0px !important;
-  overflow: hidden;
+  /* margin-right: -15px !important; */
+  /* overflow: hidden; */
+}
+.bannerSize{
+background-color: black;
 }

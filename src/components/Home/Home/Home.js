@@ -1,7 +1,7 @@
 import React from "react";
 import EarnedSkills from "../EarnedSkills/EarnedSkills";
 import Footer from "../Footer/Footer";
-
+import './Home.css'
 import Banner from "../Header/Banner/Banner";
 import Header from "../Header/Header";
 import HomeMyWorks from "../HomeMyWorks/HomeMyWorks";
