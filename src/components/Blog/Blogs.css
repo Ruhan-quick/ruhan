@@ -25,8 +25,8 @@
 .banner2-box {
   text-align: center;
 
-  margin-top: 60px;
-  margin-bottom: 60px;
+  /* margin-top: 60px; */
+  /* margin-bottom: 60px; */
 }
 .banner2-text {
   font-size: 15px;
@@ -52,17 +52,19 @@
   margin-bottom: 50px;
 }
 .blog-button {
-  color: white;
-  background-color: black;
+  color: rgb(0, 0, 0);
+  background-color: rgb(224, 222, 222);
   border: 0;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+
+  border-radius: 10px;
 }
 .blog-box {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /* margin-top: 80px; */
+  /* margin-bottom: 80px; */
 }
 /* ---------Most-Popular-blog-styles -----*/
 .mp-image {

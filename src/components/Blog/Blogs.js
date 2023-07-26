@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../Home/Footer/Footer';
 import NavBar from '../Home/Header/NavBar/NavBar';
 import './Blogs.css';
 const Blogs = () => {
+  const [showM1, setShowM1] = useState(false);
+  const [showM2, setShowM2] = useState(false);
   return (
     <div>
       <NavBar></NavBar>
       <section
         class="banner"
-        style={{ paddingLeft: '40px', paddingRight: '40px' }}
+        style={{
+          paddingLeft: '40px',
+          paddingRight: '40px',
+          background: '#000',
+          color: '#fff',
+        }}
       >
         <div class="row banner2-box">
           <div class="col-lg-8 col-md-11 col-sm-12 col-xl-7 mx-auto">
@@ -46,24 +53,40 @@ const Blogs = () => {
               active support make it likely to maintain its significance in the
               frontend development space for the foreseeable future.
             </p>
-            <p class="blog-text" id="hidden-text1" style={{ display: 'none' }}>
-              As of September 2021, the latest features in React included React
-              18 Alpha with improvements in Concurrent Mode and Server
-              Components, a new JSX Transform, and new hooks like
-              useDeferredValue(), startTransition(), and useTransition(). React
-              Refresh also replaced Hot Module Replacement (HMR) for a better
-              development experience. Keep in mind that newer updates might have
-              been released beyond that date. For the latest information, refer
-              to the official React documentation and GitHub repository.
-            </p>
-            <button
-              onClick={() => {
-                document.getElementById('hidden-text1').style.display = 'block';
-              }}
-              class="blog-button"
-            >
-              Learn More
-            </button>
+            {showM1 && (
+              <p class="blog-text" id="hidden-text1">
+                As of September 2021, the latest features in React included
+                React 18 Alpha with improvements in Concurrent Mode and Server
+                Components, a new JSX Transform, and new hooks like
+                useDeferredValue(), startTransition(), and useTransition().
+                React Refresh also replaced Hot Module Replacement (HMR) for a
+                better development experience. Keep in mind that newer updates
+                might have been released beyond that date. For the latest
+                information, refer to the official React documentation and
+                GitHub repository.
+              </p>
+            )}
+            {/* style={{ display: 'none' }} */}
+            {!showM1 && (
+              <button
+                onClick={() => {
+                  setShowM1(!showM1);
+                }}
+                class="blog-button"
+              >
+                Show More
+              </button>
+            )}
+            {showM1 && (
+              <button
+                onClick={() => {
+                  setShowM1(!showM1);
+                }}
+                class="blog-button"
+              >
+                Show Less
+              </button>
+            )}
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 blog-image-box">
             <img
@@ -98,21 +121,36 @@ const Blogs = () => {
               will shape Node.js' future. Stay updated through official Node.js
               channels for the latest developments.
             </p>{' '}
-            <p class="blog-text" id="hidden-text2" style={{ display: 'none' }}>
-              Node.js 16's latest features included an update to the V8 engine,
-              npm 7 integration, AbortController support, pinned dependencies in
-              package-lock.json, async local storage, timers promises API, and
-              prebuilt binaries with arm64 support. For the most recent updates,
-              check the official Node.js website and release notes.
-            </p>
-            <button
-              onClick={() => {
-                document.getElementById('hidden-text2').style.display = 'block';
-              }}
-              class="blog-button"
-            >
-              Learn More
-            </button>
+            {showM2 && (
+              <p class="blog-text" id="hidden-text2">
+                Node.js 16's latest features included an update to the V8
+                engine, npm 7 integration, AbortController support, pinned
+                dependencies in package-lock.json, async local storage, timers
+                promises API, and prebuilt binaries with arm64 support. For the
+                most recent updates, check the official Node.js website and
+                release notes.
+              </p>
+            )}
+            {!showM2 && (
+              <button
+                onClick={() => {
+                  setShowM2(!showM2);
+                }}
+                class="blog-button"
+              >
+                Show More
+              </button>
+            )}
+            {showM2 && (
+              <button
+                onClick={() => {
+                  setShowM2(!showM2);
+                }}
+                class="blog-button"
+              >
+                Show Less
+              </button>
+            )}
           </div>
 
           <div class="col-lg-6 col-md-12 col-sm-12 detail-box">
